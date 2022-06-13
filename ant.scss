@@ -1,0 +1,286 @@
+@import url("/asset/font/Gilroy-ExtraBold.woff");
+@import url("/asset/font/Gilroy-Bold.woff");
+@import url("/asset/font/Gilroy-Thin.woff");
+@import url(//db.onlinewebfonts.com/c/416ff9cebc6b09a8d7c97e7d6e632cb9?family=Graphik+LC+TT);
+@import url(//db.onlinewebfonts.com/c/416ff9cebc6b09a8d7c97e7d6e632cb9?family=Graphik+LC+TT+Medium);
+  /* Graphik--------------------------------*/
+  @font-face {
+    font-family: GraphikL; 
+    src: url(/asset/font/Graphik-Light.woff) format("woff");
+   }
+
+   @font-face {
+    font-family: GraphikR; 
+    src: url(/asset/font/Graphik-Regular.woff) format("woff");
+   }
+
+   @font-face {
+    font-family: GraphikM; 
+    src: url(/asset/font/Graphik-Medium.woff) format("woff");
+   }
+
+   @font-face {
+    font-family: GraphikT; 
+    src: url(/asset/font/Graphik-Thin.woff) format("woff");
+   }
+    /* gilroy--------------------------------*/
+
+   @font-face {
+    font-family: Gilroy;
+    src: url(/asset/font/Gilroy-Bold.woff) format("woff"); 
+    
+   }
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Gilroy-Bold', sans-serif;
+    list-style-type: none;
+}
+:root{
+    //Colors Choice
+    --c-darkcolor:#000000;
+    --c-maincolor:#0B1741;
+    --c-purple:#634EE9;
+    --c-darkblue:#203FAD;
+    --c-blue:#3A74E3;
+    --c-green:#21973B;
+    --c-white:#FFFFFF;
+    //Fonts
+    --f-Graphik:GRaphikR, sans-serif;
+    --f-GrapikM: GRaphikM, sans-serif;
+
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#headd{
+    width: 100%;
+    height: 62px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+#ant__text{
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    color: white;
+
+}
+
+#closs{
+    position: absolute;
+    top:21px;
+    right: 21px;
+}
+
+#main__ati{
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.main__bold{
+    margin-top:24px;
+    font-family: var(--f-GraphikM);
+    font-weight: bold;
+
+}
+.main__normal{
+    margin-top:24px;
+    font-family: var(--f-GraphikR);
+}
+
+/*------------------------------------------footer*/
+footer{
+    background-color: var(--c-maincolor);
+    height: auto;
+    padding-bottom: 26px;
+
+    span{
+        display: inline-block;
+        margin: 32px auto 0 auto;
+        color: var(--c-white);
+        font-size: 14px;
+        
+    }
+}
+
+
+#contact{
+    display: inline-block;
+    margin-left: 32px;
+    color: var(--c-white);
+   
+}
+
+
+.contact__item{
+        display: inline-block;
+        margin-right: 24px;
+        margin-top: 26px;
+        position: relative;
+
+        span{
+            display: inline-block;
+            position:relative;
+            left: 16.75px;
+            font-size: 18px;
+            font-family:var(--f-Graphik), sans-serif;
+            margin-left: 16.75px;
+            
+            line-height: 1;
+            top: 4px;
+        }
+
+        img{
+            position: absolute;
+            top: 35px;
+            width: 20.25px;
+            height: 20.25px;
+            
+            
+        }
+    
+}
+
+.contact__item:hover{
+    opacity: 0.8;
+}
+
+#anti_corp{
+    margin-top: 64px;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+#anti_corp:hover{
+    opacity: 0.8;
+}
+
+#euro__text{
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 65px;
+    color: gray;
+}
+
+#language{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    color: var(--c-white);
+    margin-top: 56px;
+    margin-left:24px;
+    text-align:center;
+    padding-bottom: 26px;
+    
+    img{
+        margin-right: 8px;
+    }
+
+    span{
+        font-size: 14px;
+        margin-top: 2px;
+        font-family: var(--f-Graphik);
+        color:gray;
+    }
+    #lang__ru{
+        color: white;
+    }
+    
+
+}
+
+
+#anti_corp{
+    margin-top: 64px;
+    margin-left: 35px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 767px){
+
+    #main__ati{
+        margin: 60px 60px 0px 60px ;
+        
+    }
+
+    footer{
+        margin-top: 60px;
+    }
+
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .contact__item{
+        margin-left:0px;
+        margin-right: 60px;
+        width: 220px;
+        height: auto;
+        
+    }
+
+    .contact__item:last-child{
+        margin-left: 0px;
+    }
+
+    #anti_corp{
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    span{
+        margin-right:60px;
+        display: inline-block;
+    }
+
+    #last__wrap{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #euro__text{
+        display: inline-block;
+        margin-top: 60px;
+    }
+
+    #euro__stroke{
+        display: none;
+        font-weight: lighter;
+    }
+
+    #language{
+        width:320px;
+    }
+}
+
+@media screen and (min-width: 1278px){
+    #main__ati{
+        margin: 213px 213px 0px 213px ;
+        
+    }
+    #anti_corp{
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    #euro__text{
+        display: inline-block;
+        margin-top: 57px;
+    }
+}

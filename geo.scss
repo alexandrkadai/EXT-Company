@@ -1,0 +1,436 @@
+@import url("/asset/font/Gilroy-ExtraBold.woff");
+@import url("/asset/font/Gilroy-Bold.woff");
+@import url("/asset/font/Gilroy-Thin.woff");
+
+@import url(//db.onlinewebfonts.com/c/416ff9cebc6b09a8d7c97e7d6e632cb9?family=Graphik+LC+TT);
+@import url(//db.onlinewebfonts.com/c/416ff9cebc6b09a8d7c97e7d6e632cb9?family=Graphik+LC+TT+Medium);
+
+  /* Graphik--------------------------------*/
+  @font-face {
+    font-family: GraphikL; 
+    src: url(/asset/font/Graphik-Light.woff) format("woff");
+   }
+
+   @font-face {
+    font-family: GraphikR; 
+    src: url(/asset/font/Graphik-Regular.woff) format("woff");
+   }
+
+   @font-face {
+    font-family: GraphikM; 
+    src: url(/asset/font/Graphik-Medium.woff) format("woff");
+   }
+
+   @font-face {
+    font-family: GraphikT; 
+    src: url(/asset/font/Graphik-Thin.woff) format("woff");
+   }
+    /* gilroy--------------------------------*/
+
+   @font-face {
+    font-family: Gilroy;
+    src: url(/asset/font/Gilroy-Bold.woff) format("woff"); 
+    
+   }
+
+:root{
+    //Colors Choice
+    --c-darkcolor:#000000;
+    --c-maincolor:#0B1741;
+    --c-purple:#634EE9;
+    --c-darkblue:#203FAD;
+    --c-blue:#3A74E3;
+    --c-green:#21973B;
+    --c-white:#FFFFFF;
+    //Fonts
+    --f-Graphik:GraphikR, sans-serif;
+    --f-GrapikM: GraphikM, sans-serif;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+}
+
+body{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.g__header__wrap{
+    height: 62px;
+    width: auto;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    span{
+        position: absolute;
+        top:22px;
+        left: 24px;
+        font-size: 18px;
+        font-family: var(--f-GrapikM);
+        
+    }
+
+   
+}
+
+
+    #img__closeM{
+        position: absolute;
+        top: 21px;
+        right: 21px;
+    }
+
+    #img__closeT{
+        display: none;
+    }
+
+
+    #g__art__wrap{
+        margin: 32px 24px 0px 24px;
+        font-family: var(--f-GrapikM);
+        p{
+            margin-top: 30px;
+            font-family: var(--f-Graphik);
+        }
+    }
+
+  
+
+//---------------------------------------Cards Onclick
+.card__project{
+    height: auto;
+    width: 360px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    padding-bottom: 32px;
+    
+
+    img{
+        margin-top: 86px;
+        margin-left: 12px;
+        width:112.32px;
+        height: 104.32px;
+    }
+
+    .text__wrap{
+        width: 270px;
+        height: auto;
+        margin-left: 24px;
+        
+    h3{
+        display: inline-block;
+        color: black; 
+        margin-top: 56.68px;  
+        font-size: 18px;
+        font-family: var(--f-Graphik);
+        }
+        
+    p{
+        
+        margin-top: 16px;
+        font-size: 18px;
+        font-family: var(--f-GrapikM);
+       
+    }
+
+
+    
+}
+}
+
+        #blue{
+        background-color: var(--c-blue);
+        }
+
+        #green{
+        background-color: var(--c-green);
+        }
+
+        #purple{
+        background-color: var(--c-darkblue);
+        }
+
+        #real__purple{
+        background-color: var(--c-purple);
+        }
+
+        .more{
+         width: 170px;
+         height: 44px;
+         text-transform: capitalize;
+         color: var(--c-white);
+         font-family: var(--f-Graphik);
+         font-size: 18px;
+         border-width: 0px;
+         margin-left: 24px;
+         margin-top:24px;
+        }
+
+        #fourth__card{
+            margin-top: 20px;
+            position: static;
+            font-family: var(--f-GrapikM);
+            width: auto;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+
+      
+        }
+
+/*  -----------------------------Footer*/
+footer{
+    background-color: var(--c-maincolor);
+    height: auto;
+    margin-top: 64px;
+    padding-bottom: 26px;
+
+    span{
+        display: inline-block;
+        margin: 32px auto 0 auto;
+        color: var(--c-white);
+        font-size: 14px;
+        
+    }
+}
+
+
+#contact{
+    display: inline-block;
+    margin-left: 32px;
+    color: var(--c-white);
+}
+
+
+.contact__item{
+        display: inline-block;
+        margin-top: 26px;
+        margin-right: 24px;
+        position: relative;
+   
+        
+
+        span{
+            display: inline-block;
+            position:relative;
+            left: 16.75px;
+            font-size: 18px;
+            font-family:var(--f-Graphik), sans-serif;
+            margin-left: 16.75px;
+            width: 220px;
+            top: 4px;
+        }
+
+        img{
+            position: absolute;
+            top: 35px;
+            width: 22px;
+            height: 20px;
+            
+            
+        }
+    
+}
+
+.contact__item:hover{
+    opacity: 0.8;
+}
+
+#anti_corp{
+    margin-top: 64px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-family: var(--f-Graphik);
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#anti_corp:hover{
+    opacity: 0.8;
+}
+
+
+#euro__text{
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 65px;
+    color: gray;
+    font-family: var(--f-Graphik);
+}
+
+    #language{
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-around;
+        color: var(--c-white);
+        margin-top: 56px;
+        margin-left:24px;
+        text-align:center;
+        padding-bottom: 26px;
+        font-family: var(--f-GraphikR);
+        
+        img{
+            margin-right: 8px;
+        }
+
+        span{
+            font-size: 18px;
+            margin-top: 2px;
+            font-family: var(--f-GraphikM);
+            color:gray;
+        }
+
+        #lang__ru{
+            color: white;
+        }
+    }
+    
+       
+  /* -------------------------------TABLET MODE------------------*/
+       
+@media screen and (min-width: 767px){
+    .g__header__wrap{
+        height: 90px;
+        box-shadow: none;
+        margin: 0;
+        span{
+            position: absolute;
+            top:70px;
+            left: 110px;
+            font-size: 18px;
+            font-size: var(--f-GrapikM);
+            font-weight: bold;
+            
+        }
+    
+    }
+
+    #g__art__wrap{
+        margin: 40px 110px 20px 110px;
+        
+    }
+    
+    
+    
+    #img__closeM{
+        display: none;
+    }
+
+    #img__closeT{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    #fourth__card{
+        position: static;
+        width: 360px;
+        height: 420px;
+        margin-top: 64px;
+        margin-left: 90px;
+        padding-bottom: 60px;
+        margin-bottom: 50px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    }
+
+    footer{
+        margin-top: 60px;
+        
+    }
+
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .contact__item{
+        margin-left:0px;
+        margin-right: 60px;
+        width: 240px;
+        height: auto;
+        
+    }
+
+    .contact__item:last-child{
+        margin-left: 0px;
+    }
+
+
+    #anti_corp{
+        margin-top: 62px;
+        font-size: 18px;
+        font-family: var(--f-Graphik);
+        
+    }
+    span{
+        margin-right:60px;
+        display: inline-block;
+    }
+
+    #last__wrap{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #euro__text{
+        display: inline-block;
+        margin-top: 61px;
+    }
+
+    #euro__stroke{
+        display: none;
+        font-weight: lighter;
+    }
+
+    
+
+    #language{
+        width:320px;
+    }
+}
+
+
+
+@media screen and (min-width: 1278px){
+    #geo__article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #g__art__wrap{
+        width: 700px;
+        margin-top: 20px;
+    }
+
+    #fourth__card{
+        height: auto;
+        margin-top: 34px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 60px;
+        margin-bottom: 50px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+
+    }
+
+    footer{
+        bottom: 1px;
+        width: 100%;
+    }
+
+   #anti__corp{
+        margin-left: 0px;
+    }
+
+    #contact__item{
+    width: 240px;
+    }
+}

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>EUROTELECOM</title>
+    
+</head>
+<body>
+    <main>
+        <section id="section__first">
+        <img id="logo__mobile" src="asset/img/logo.svg" alt="logoMob">
+        <img id="logo__tabl" src="asset/img/logo_tabl.svg" alt="logoTab">
+        <img id="logo__deks" src="asset/img/logo_deks.svg" alt="logoDeks">
+        <span id="text__main">eurotelecom</span>
+        <span id="find">Найдем решения к любой задаче</span>
+        <ul id="menu">
+            <li class="menu__item"><a href="#section__second">про нас</a></li>
+            <li class="menu__item"><a href="#partner__wrap">партнеры</a></li>
+            <li class="menu__item"><a href="#clients__name">клиенты</a></li>
+        </ul>
+    </section>
+
+    <section id="section__second">
+        <h1 id="padding__one"></h1>
+        <div id="cards__wrap">
+        <div id="first__card" class="card__project">
+            <img src="asset/img/cards/PurpleLogo.svg" alt="">
+            <img onclick="firstC()" id="first__card__close" src="asset/img/geo/x_m.svg" alt="closse">
+            <div class="text__wrap">
+            <h3>Кибербезопасность</h3>
+            <p>Процесс обеспечения конфиденциальности, целостности и доступности информации. 
+            Наша команда имеет опыт в разработке и успешном внедрении комплексных решений 
+            от различных поставщиков. 
+        </p>
+    </div>
+            <button id="blue" class="more">узнать больше</button>
+        </div>
+        
+            <div id="second__card" class="card__project">  
+                <img src="asset/img/cards/GreenLogo.svg" alt="">
+                <img onclick="firstC()" id="second__card__close" src="asset/img/geo/x_m.svg" alt="closse">
+                <div class="text__wrap">
+                <h3>Геоинформационные системы</h3>
+                <p>ГИС - представляют собой системы, направленые на улавливание, хранение, манипулирование, 
+                    анализ, управление и представление пространственных или географических данных
+            </p>
+        </div>
+                <button onclick="location.href='geo.html'" id="green" class="more">узнать больше</button>
+        </div>
+
+        <div id="second__card1" class="card__project">  
+            <img src="asset/img/cards/GreenLogo.svg" alt="">
+            <img onclick="firstC()" id="second__card__close" src="asset/img/geo/x_m.svg" alt="closse">
+            <div class="text__wrap">
+            <h3>Геоинформационные системы</h3>
+            <p>ГИС - представляют собой системы, направленые на улавливание, хранение, манипулирование, 
+                анализ, управление и представление пространственных или географических данных
+        </p>
+    </div>
+            <button onclick="location.href='geo.html'" id="green" class="more">узнать больше</button>
+    </div>
+        
+        <div id="third__card" class="card__project">
+            <img src="asset/img/cards/PurpleLogo.svg" alt="">
+            <img onclick="firstC()" id="third__card__close" src="asset/img/geo/x_m.svg" alt="closse">
+            <div class="text__wrap">
+            <h3>Интеграция</h3>
+            <p>Интеграция программного обеспечения — это процесс организации обмена данными между системами 
+                с возможной последующей обработкой.
+                Наша команда проводит углубленный анализ для определения потребностей 
+                в интеграции программного обеспечения во всех затронутых ИТ-системах.
+
+        </p>
+    </div>
+            <button id="purple" class="more">узнать больше</button>
+    </div>
+
+     <div id="fourth__card" class="card__project">
+        <img src="/asset/img/cards/PurpleLogo.svg" alt="">
+        <img onclick="firstC()" id="fourth__card__close" src="/asset/img/geo/x_m.svg" alt="closse">
+        <div class="text__wrap">
+        <h3>IT сервис</h3>
+        <p>Наша команда имеет большой опыт проектирования, 
+            развертывания и обслуживания инфраструктурных сервисов.
+     </p>
+    </div>
+         <button id="real__purple" class="more">узнать больше</button>
+    </div>
+</div>
+            <div id="text__wrap">
+                <!--    MAIN PART    -->
+
+        <h2>Мы реализовали больше<br id="real__stroke"> 200 проектов</h2>
+            </div>
+            <!-- Mobile slide-->
+        <div id="mobile__slide" class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div id="mobile__slide__wrap"class="swiper-wrapper">
+              <!-- Slides -->
+              <div id="mobile__slide__item" class="swiper-slide"><img id="first__img" src="asset/img/cards/GreenCard.svg" alt="GreenCard"></div>
+              <div class="swiper-slide mobile__slide__all"><img src="asset/img/cards/BlueCard.svg" alt="BlueCard"></div>
+              <div class="swiper-slide mobile__slide__all"><img src="asset/img/cards/DarkBlueCard.svg" alt="DarkBlueCard"></div>
+              <div class="swiper-slide mobile__slide__all"><img src="asset/img/cards/PurpleCard.svg" alt="DarkBlueCard"></div>
+              
+            </div>
+           
+          </div>
+
+          <!-- Tablet slide-->
+          <div id="cards__tablet" class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div id="cards__tablet__wraper" class="swiper-wrapper">
+              <!-- Slides -->
+              <div id="first__one" class="swiper-slide"><img src="asset/img/cards/GreenCard.svg" alt="GreenCard"></div>
+              <div class="swiper-slide tablet__slider__card"><img src="asset/img/cards/BlueCard.svg" alt="BlueCard"></div>
+              <div class="swiper-slide tablet__slider__card"><img src="asset/img/cards/DarkBlueCard.svg" alt="DarkBlueCard"></div>
+              <div class="swiper-slide tablet__slider__card"><img src="asset/img/cards/PurpleCard.svg" alt="DarkBlueCard"></div>
+             
+            </div>
+           
+          </div>
+
+          <div id="dekstop__card">
+            <div  id="dekstop__item__1">
+                
+            <img  class="dekstop__card__img" id="img__dekst__green"  src="asset/img/cards/GreenLogo.svg" alt="GreenCard">
+        <span id="dekstop__item__text1" >Геоинформационные <br>системы</span>    
+   
+        </div>
+            <div id="dekstop__item__2">
+            <img class="dekstop__card__img" id="img__dekst__blue" src="asset/img/cards/BlueLogo.svg" alt="BlueCard">
+        <span id="dekstop__item__text2" >Кибербезопасность</span>    
+        </div>
+            <div id="dekstop__item__3">
+            <img class="dekstop__card__img" id="img__dekst__dark" src="asset/img/cards/PurpleLogo.svg" alt="DarkBlueCard">
+        <span id="dekstop__item__text3" >Интеграция</span>    
+        </div>
+            <div id="dekstop__item__4">
+            <img class="dekstop__card__img" id="img__dekst__purple" src="asset/img/cards/PurpleLogo.svg" alt="DarkBlueCard">
+        <span id="dekstop__item__text4" >IT Сервис</span>    
+        </div>
+          </div>
+
+   
+    
+    </section>
+
+    <section id="section_third">
+        <div id="artic__wrap">
+        <article id="art__text">
+             <p>Этот текст о нас нужно полностью переписать Евротелеком» является системным интегратором 
+                информационных технологий более 11 лет. Используя самые современные и проверенные решения,
+                 мы предоставляем высоко инновационные ИТ-услуги.</p>
+            <p>Нашими клиентами являются международные и отечественные организации из разных отраслей.
+            </p>
+                <p> Мы специализируемся на внедрении и поставке программных и аппаратных систем, 
+                а также систем управления информационной безопасностью.</p>
+            <p>
+                Наша компания предоставляет услуги по настройке, обслуживанию и аудиту информационных систем.
+                </p>
+
+                <p>Мы являемся лидерами в реализации сложных проектов: от разработки ИТ-стратегии и архитектуры 
+                до предоставления передовых решений в области ИТ-безопасности.</p>
+        </article>
+    </div>
+
+    <div id="certi__swiper" class="swiper-container1">
+        <!-- Additional required wrapper -->
+        <div id="certi__slide__mob" class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide certi__mob__item"><img src="asset/img/certification/ccsa.svg" alt="CSSCA"></div>
+          <div  class="swiper-slide certi__mob__item"><img id="web__sphere_mob" src="asset/img/certification/ibWebsphere.svg" alt="CSSCA"></div>
+          <div class="swiper-slide certi__mob__item"><img src="asset/img/certification/ibmLogo.svg" alt="CSSCA"></div>
+          <div class="swiper-slide certi__mob__item"><img src="asset/img/certification/acma.svg" alt="ACMA"></div>
+          <div class="swiper-slide certi__mob__item"><img src="asset/img/certification/vm.svg" alt="VM"></div>
+
+       
+         
+         
+          
+        </div>
+       
+      </div>
+      <div id="tablet__certi">
+        <div class="tablet__certi__item"><img id="web__sphere" src="asset/img/certification/ibWebsphere.svg" alt="CSSCA"></div>
+          <div class="tablet__certi__item"><img src="asset/img/certification/ccsa.svg" alt="CSSCA"></div>
+          <div class="tablet__certi__item"><img src="asset/img/certification/ibmLogo.svg" alt="CSSCA"></div>
+          <div class="tablet__certi__item"><img src="asset/img/certification/acma.svg" alt="ACMA"></div>
+      <div class="tablet__certi__item"><img src="asset/img/certification/vm.svg" alt="VM"></div>
+        </div>
+    </section>
+
+    <section id="section__four">
+            <div id="client__wrap">
+                <span id="clients__name">Клиенты</span>
+                
+                    <div id="client__slider" class="swiper-container2">
+                        <!-- Additional required wrapper -->
+                        <div  class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide"> <img id="libra" src="asset/img/clients/ukrLibra.svg" alt="UkrBan"></div>
+                          <div class="swiper-slide"><img id="ukr__bank" src="asset/img/clients/ukrBank.svg" alt="UkrLibra"></div>
+                          <div class="swiper-slide"><img id="ukr__gas" src="asset/img/clients/ukrGas.svg" alt="UkrEnergy"></div>
+                          <div class="swiper-slide"><img src="asset/img/clients/radio.svg" alt="Ukr"></div>
+                          <div class="swiper-slide"><img src="asset/img/clients/ukr_energ.svg" alt="Gas"></div>
+                          <div class="swiper-slide"><img src="asset/img/clients/vodo.svg" alt="Vodo"></div>
+                          
+                        </div>
+                       
+                      </div>
+                      <div  class="swiper-container6">
+                        <!-- Additional required wrapper -->
+                        <div id="tablet__client" class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide tablet__client__item"> <img src="asset/img/clients/ukrLibra.svg" alt="UkrBan"></div>
+                          <div class="swiper-slide tablet__client__item"><img id="ukr__bank" src="asset/img/clients/ukrBank.svg" alt="UkrLibra"></div>
+                          <div class="swiper-slide tablet__client__item"><img id="ukr__gas" src="asset/img/clients/ukrGas.svg" alt="UkrEnergy"></div>
+                          <div class="swiper-slide tablet__client__item"><img src="asset/img/clients/radio.svg" alt="Ukr"></div>
+                          <div class="swiper-slide tablet__client__item"><img src="asset/img/clients/ukr_energ.svg" alt="Gas"></div>
+                          <div class="swiper-slide tablet__client__item"><img src="asset/img/clients/vodo.svg" alt="Vodo"></div>
+                          
+                        </div>
+                       
+                      </div>
+
+                      <div id="client__static">
+                            <div><img class="dekstop__color" src="asset/img/clients/ukrLibra.svg" alt="Libra">
+                                <img class="dekstop__gray" src="asset/img/clients_grey/libra_grey.svg" alt="libra_gre">
+                            
+                            </div>
+
+                            <div><img class="dekstop__color" src="asset/img/clients/ukrBank.svg" alt="bank">
+                                <img class="dekstop__gray" src="asset/img/clients_grey/ukr_grey.svg" alt="bankGrey">
+                            
+                            </div>
+
+                            <div><img class="dekstop__color" src="asset/img/clients/ukrGasDeks.svg" alt="gas">
+                                <img class="dekstop__gray" src="asset/img/clients_grey/gas_grey.svg" alt="gasgrey">
+                            
+                            </div>
+
+                            <div><img class="dekstop__color" src="asset/img/clients/radio.svg" alt="radio">
+                                <img class="dekstop__gray" src="asset/img/clients_grey/radio_grey.svg" alt="radio_grey">
+                            
+                            </div>
+
+                            <div><img class="dekstop__color" src="asset/img/clients/ukr_energ.svg" alt="energy">
+                                <img class="dekstop__gray" src="asset/img/clients_grey/energo_grey.svg" alt="enr_gray">
+                            
+                            </div>
+
+                            <div><img class="dekstop__color" src="asset/img/clients/vodo.svg" alt="vodo">
+                                <img class="dekstop__gray" src="asset/img/clients_grey/vodo_grey.svg" alt="vodo_gray">
+                            
+                            </div>
+
+
+                      </div>
+
+                      
+            <div id="partner__wrap">
+                <span>Партнеры</span>
+                <div id="partner__slider" class="swiper-container3">
+                    <!-- Additional required wrapper -->
+                    <div  class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/cisco].svg" alt="Csico"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/ibm.svg" alt="ibm"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/hp.svg" alt="hp"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/dhi.svg" alt="dhi"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/aruba.svg" alt="Aruba"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/vm.svg" alt="Vm"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/veeam.svg" alt="Veem"></div>
+                      <div class="swiper-slide partner_image"><img id="check" src="asset/img/partners/chek.svg" alt="Check"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/esri.svg" alt="Esri"></div>
+                      <div class="swiper-slide partner_image"><img src="asset/img/partners/oracle.svg" alt="Oracle"></div>
+                    </div>
+                   
+                  </div>
+                  <div id="partner__slidertab" class="wiper-container">
+                    <!-- Additional required wrapper -->
+                    <div id="partner__slidertab__wrap" class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/ibm.svg" alt="ibm"></div>
+                      <!-- <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/cisco].svg" alt="Csico"></div> -->
+                      <!-- <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/hp.svg" alt="hp"></div>
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/dhi.svg" alt="dhi"></div>
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/aruba.svg" alt="Aruba"></div>
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/vm.svg" alt="Vm"></div>
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/veeam.svg" alt="Veem"></div>
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/esri.svg" alt="Esri"></div>
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/oracle.svg" alt="Oracle"></div>
+                      <div class="swiper-slide partner__slide__item"><img id="partner_image" src="asset/img/partners/chek.svg" alt="Check"></div> -->
+                    </div>
+                   
+                  </div>
+            </div>
+
+
+            <div id="partner__slider__static">
+
+                    
+                <div><img class="dekstop__color" src="asset/img/partners/ibmDekst.svg" alt="ibm">
+                    <img class="dekstop__gray" src="asset/img/grey/ibm_grey.svg" alt="ibm">
+                    </div>
+
+                    <div><img class="dekstop__color" src="asset/img/partners/cisco].svg" alt="Csico">
+                        <img class="dekstop__gray" src="asset/img/grey/cisco_grey.svg" alt="Cisco">
+                    </div>
+
+                    <div><img class="dekstop__color" src="asset/img/partners/hp.svg" alt="hp">
+                        <img class="dekstop__gray" src="asset/img/grey/hp_gre.svg" alt="hp">
+                    </div>
+
+                   
+                    <div><img class="dekstop__color" src="asset/img/partners/aruba.svg" alt="Aruba">
+                        <img class="dekstop__gray" src="asset/img/grey/aruba_grey.svg" alt="aruba">
+                    </div>
+
+                    <div id="vm__dekst"><img class="dekstop__color" src="asset/img/partners/vm.svg" alt="Vm">
+                           <img class="dekstop__gray" src="asset/img/grey/vm_grey.svg" alt="VM"> 
+                    </div>
+
+                    <div id="veem__dekst"><img class="dekstop__color" src="asset/img/partners/veeam.svg" alt="Veem">
+                        <img class="dekstop__gray" src="asset/img/grey/veem_grey.svg" alt="veem">
+                    </div>
+
+                    <div><img class="dekstop__color" src="asset/img/partners/oracle.svg" alt="Oracle">
+                        <img class="dekstop__gray" src="asset/img/grey/oracle_grey.svg" alt="Oracle">
+                    </div>
+
+
+                    <div id="esri__dekst"><img class="dekstop__color" src="asset/img/partners/esri.svg" alt="Esri">
+                        <img class="dekstop__gray" src="asset/img/grey/esri_grey.svg" alt="esri">
+                    </div>
+
+                   
+                    
+                    <div><img class="dekstop__color" src="asset/img/partners/chek.svg" alt="Check">
+                            <img class="dekstop__gray" src="asset/img/grey/check_grey.svg" alt="Check">
+                    </div>
+
+                    <div><img class="dekstop__color" src="asset/img/partners/dhi.svg" alt="dhi">
+                        <img class="dekstop__gray" src="asset/img/grey/dhi.svg" alt="dhi">
+                    </div>
+
+
+            </div>
+            </div>
+
+            <!------------------------------- MOBILE SLIDER DIPLOMS-->
+        
+            <div id="diploma__slider" class="swiper-container7">
+                <div  class="swiper-wrapper diploma__wrap">
+                 <!--x   <div id="big__diploma" class="swiper-slide"><img src="/asset/img//diplomaNorm.svg" alt="xxl"></div>-->
+            
+                 <div  id="big__diploma" class="swiper-slide">
+                     <img id="dmob__img1" src="asset/img/diplom/xxl.png" alt="xxl"/>
+                    </div>
+
+                 <div id="diploma__m1"  class="swiper-slide diploma__mobile_slide">
+                     <img  id="dmob__img2" src="asset/img/diplom/thank2.svg" alt="thank2">
+                    <img  id="dmob__img3" src="asset/img/diplom/thank.svg" alt="thnak">
+                </div>
+
+                <div id="diploma__m4" class="swiper-slide diploma__mobile_slide">
+                    <img  id="dmob__img4" src="asset/img/diplom/euro.svg" alt="euro">
+                    <img  id="dmob__img5" src="asset/img/diplom/grammar.svg" alt="Gramm">
+                </div>
+
+                </div>
+               
+              </div>
+              <div id="mobile__img__wrap">
+                <img id="mobileclose" src="asset/img/diplom/dipClose.svg" alt="ClosingDiplom mobile">
+              <img class="mobile__img__show" id="xxl__img1" src="asset/img/diplom/xxl.png" alt="xxl">
+              <img  class="mobile__img__show" id="diplom__img1" src="asset/img/diplom/thank2.jpg" alt="thank2">
+                <img class="mobile__img__show" id="thank__img1" src="asset/img/diplom/thank.png" alt="thank">
+                <img class="mobile__img__show" id="diplo__img1" src="asset/img/diplom/diplo.png" alt="diplo">
+                <img class="mobile__img__show" id="telas__img1" src="asset/img/diplom/telas.jpg" alt="telas">
+                
+            </div>
+
+
+<!-- --------------------------------------Tablet Slider Diplom
+-->
+            <div id="diploma__tabl">
+                <div>
+                <img  onclick="thanks2D()"  id="thank2__diplom" src="asset/img/diplom/thank2.jpg" alt="thank2">
+                <img id="diplom__img" src="asset/img/diplom/thank2.jpg" alt="thank2">
+                <img onclick="closeM()" id="diplom__close" src="asset/img/diplom/dipClose.svg" alt="closeDD">
+            </div>
+
+            <div>
+                <img onclick="xxlD()"   id="xxl__diplom" src="asset/img/diplom/xxl.png" alt="xxl">
+                    <img id="xxl__img" src="asset/img/diplom/xxl.png" alt="xxl">
+                <img onclick="closeM1()" id="xx__close" src="asset/img/diplom/dipClose.svg" alt="closeIMGdiplo">
+            </div>
+
+                <div>
+                <img onclick="thankD()"  id="thank__diplom" src="asset/img/diplom/thank.png" alt="thank">
+                        <img id="thank__img" src="asset/img/diplom/thank.png" alt="thank">
+                <img onclick="closeM2()" id="thank__close" src="asset/img/diplom/dipClose.svg" alt="closeIMGdiplo">
+            </div>
+
+                <div>
+                <img onclick="tellasD()" id="telas__diplom" src="asset/img/diplom/telas.jpg" alt="">
+                        <img id="telas__img" src="asset/img/diplom/telas.jpg" alt="telas">
+                <img onclick="closeM3()" id="tellas__close" src="asset/img/diplom/dipClose.svg" alt="closeIMGdiplo">
+              </div>
+
+                <div>
+                <img onclick="diplosD()" id="diplo__diplom" src="asset/img/diplom/diplo.png" alt="diplo">
+                        <img id="diplo__img" src="asset/img/diplom/diplo.png" alt="diplo">
+                <img onclick="closeM4()" id="dip__close" src="asset/img/diplom/dipClose.svg" alt="closeIMGdiplo">
+                </div>
+
+            </div>
+
+    </section>
+    
+
+    </main>
+        <footer>
+            <ul id="contact">
+                <li class="contact__item"><a href="https://goo.gl/maps/fBwv7nGFu6WVuxEN9"><img src="asset/img/footer/arrow.svg" alt="arrow"><span> Киев, Волынская 10</span></a></li>
+            <li class="contact__item"><a href="mailto:office@etele.com.ua"><img src="asset/img/footer/mail1.svg" alt="mail"><span> office@etele.com.ua</span></a></li>
+            <li class="contact__item"><a href="tel:+380442225631"><img src="asset/img/footer/phone.svg" alt="phone"><span> +38 044 222 56 31</span></a></li>
+            <li id="anti_corp"><a href="/anti.html"> Anticorruption Policy</a></li>
+           
+        </ul>
+        <div id="last__wrap">
+        <span id="euro__text">2020 ЕВРОТЕЛЕКОМ <br id="euro__stroke">EUROTELECOM LLC</span>
+        <ul id='language'>
+            <li><a href=""> <img src="asset/img/footer/RuFlag.svg" alt="RuFlag"><span id="lang__ru">Русский</span></a></li>
+            <li><a href=""> <img src="asset/img/footer/UkrFlag.svg" alt="UkrFlag"><span>Українська</span></a></li>
+            <li><a href=""> <img src="asset/img/footer/ameFlag.svg" alt="ameFlag"><span>English</span></a></li>
+        </ul>
+    </div>
+        </footer>
+        <script src="asset/js/main.js">
+        </script>
+</body>
+</html>
